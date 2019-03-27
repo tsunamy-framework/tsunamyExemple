@@ -1,0 +1,32 @@
+{
+  "name": "tsunamyExemple",
+  "version": "0.0.0",
+  "description": "A new typesript framework",
+  "main": "main.ts",
+  "types": "lib/main",
+  "nodemonConfig": {
+    "ignoreRoot": [
+      ".git"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build:live",
+    "start-tsunamy": "npm run build:live:dev:tsunamy",
+    "build": "tsc -p .",
+    "build:live": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/main.ts",
+    "build:live:dev:tsunamy": "nodemon --watch 'src/**/*.ts' --watch '../tsunamy/core' --exec 'ts-node' src/main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^11.11.6",
+    "nodemon": "^1.18.10",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.4000"
+  },
+  "dependencies": {
+    "tsunamy": "0.0.1"
+  }
+}
