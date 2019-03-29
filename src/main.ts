@@ -1,5 +1,5 @@
-import { server } from 'tsunamy/core'
+import { Server } from 'tsunamy/core';
 import { AppModule } from './api/app.module';
 import { CONFIGURATION } from './config/config';
- 
-new server().bootstrapModule(AppModule, CONFIGURATION);
+
+new Server().bootstrapModule(AppModule, CONFIGURATION);

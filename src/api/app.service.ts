@@ -6,6 +6,6 @@ export class AppService {
   constructor() {}
 
   hi(): string {
-    return "Tsunamy";
+    return 'Tsunamy';
   }
 }

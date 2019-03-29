@@ -6,4 +6,4 @@ export let CONFIGURATION: Configuration = {
   https: false,
   pathAPI: 'api',
   projectDirectory: __dirname + '/..'
-}
+};
