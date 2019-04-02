@@ -36,6 +36,8 @@
     "typescript": "^3.4.1"
   },
   "dependencies": {
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.4.0",
     "tsunamy": "0.0.4"
   }
 }
