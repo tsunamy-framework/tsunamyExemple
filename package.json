@@ -1,7 +1,7 @@
 {
-  "name": "tsunamyExemple",
-  "version": "0.0.0",
-  "description": "A new typesript framework",
+  "name": "tsunamyProjectExemple",
+  "version": "0.0.5",
+  "description": "A typesript framework exemple",
   "main": "main.ts",
   "types": "lib/main",
   "nodemonConfig": {
@@ -10,6 +10,7 @@
     ]
   },
   "scripts": {
+    "start-prod": "ts-node -T src/main.ts",
     "test": "jasmine-ts --config=jasmine.json",
     "testWithCoverage": "nyc -r lcov -e .ts -x \"*.spec.ts\" jasmine-ts --config=jasmine.json && nyc report",
     "start": "npm run build:live",
@@ -38,6 +39,6 @@
   "dependencies": {
     "reflect-metadata": "^0.1.13",
     "rxjs": "^6.4.0",
-    "tsunamy": "0.0.5"
+    "tsunamy": "0.0.6"
   }
 }
