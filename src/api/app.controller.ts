@@ -1,7 +1,8 @@
-import { RequestMapping, PathParam, Controller, QueryParam, Guards } from 'tsunamy/core';
+import { RequestMapping, PathParam, Controller, QueryParam, Guards, Response } from 'tsunamy/core';
 import { AppService } from './app.service';
 
 function isLogin(request: any): boolean {
+    // console.log(request.headers);
     return true;
 }
 
@@ -17,7 +18,8 @@ export class AppController {
 
   @RequestMapping({ path: '/hi', method: 'GET'})
   @Guards(isLogin)
-  hello2() {
+  hello2(@Response() res: any) {
+    res.setHeader('test', 'test');
     return {test: 'I am ' + this.appservice.hi()};
   }
 

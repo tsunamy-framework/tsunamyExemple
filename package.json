@@ -1,6 +1,6 @@
 {
   "name": "tsunamyProjectExemple",
-  "version": "0.0.5",
+  "version": "0.0.8",
   "description": "A typesript framework exemple",
   "main": "main.ts",
   "types": "lib/main",
@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@types/jasmine": "^3.3.12",
-    "@types/node": "^11.13.0",
+    "@types/node": "^12.0.0",
     "jasmine": "^3.3.1",
     "jasmine-ts": "^0.3.0",
     "nodemon": "^1.18.10",
@@ -39,6 +39,6 @@
   "dependencies": {
     "reflect-metadata": "^0.1.13",
     "rxjs": "^6.4.0",
-    "tsunamy": "0.0.7"
+    "tsunamy": "0.0.8"
   }
 }
