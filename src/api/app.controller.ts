@@ -25,6 +25,6 @@ export class AppController {
 
   @RequestMapping({ path: '/err', method: 'GET'})
   error() {
-    return {error: 4000, message: 'error'};
+    return {error: 500, message: 'error'};
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "tsunamyProjectExemple",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A typesript framework exemple",
   "main": "main.ts",
   "types": "lib/main",
@@ -39,6 +39,6 @@
   "dependencies": {
     "reflect-metadata": "^0.1.13",
     "rxjs": "^6.4.0",
-    "tsunamy": "0.0.8"
+    "tsunamy": "0.0.9"
   }
 }
