@@ -39,6 +39,6 @@
   "dependencies": {
     "reflect-metadata": "^0.1.13",
     "rxjs": "^6.4.0",
-    "tsunamy": "0.0.10"
+    "tsunamy": "0.0.13"
   }
 }
